@@ -654,8 +654,15 @@
     {
       "date": "2026-03-03",
       "hour": 16,
-      "subtype": "Run",
-      "type": "Run",
+      "subtype": "TrailRun",
+      "type": "TrailRun",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-04",
+      "hour": 7,
+      "subtype": "Swim",
+      "type": "Swim",
       "year": 2026
     }
   ],
@@ -1329,15 +1336,6 @@
           "distance": 4269.9,
           "elevation_gain": 20.8,
           "moving_time": 1748.0
-        },
-        "2026-03-03": {
-          "activity_ids": [
-            "17595459726"
-          ],
-          "count": 1,
-          "distance": 8287.2,
-          "elevation_gain": 136.5,
-          "moving_time": 3607.0
         }
       },
       "Swim": {
@@ -1493,11 +1491,31 @@
           "distance": 1650.0,
           "elevation_gain": 0.0,
           "moving_time": 2239.0
+        },
+        "2026-03-04": {
+          "activity_ids": [
+            "17600782304"
+          ],
+          "count": 1,
+          "distance": 1650.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2256.0
+        }
+      },
+      "TrailRun": {
+        "2026-03-03": {
+          "activity_ids": [
+            "17595459726"
+          ],
+          "count": 1,
+          "distance": 8287.2,
+          "elevation_gain": 136.5,
+          "moving_time": 3607.0
         }
       }
     }
   },
-  "generated_at": "2026-03-04T04:15:11.387503+00:00",
+  "generated_at": "2026-03-04T17:11:19.182975+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
@@ -1513,12 +1531,17 @@
     "Swim": {
       "accent": "#3a86ff",
       "label": "Swim"
+    },
+    "TrailRun": {
+      "accent": "#00bbf9",
+      "label": "Trail Run"
     }
   },
   "types": [
     "Ride",
     "Run",
-    "Swim"
+    "Swim",
+    "TrailRun"
   ],
   "units": {
     "distance": "mi",
