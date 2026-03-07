@@ -1241,10 +1241,10 @@
     "id": "17625379333",
     "moving_time": 1558.0,
     "name": "Lunch Weight Training",
-    "raw_activity_type": "WeightTraining",
-    "raw_type": "WeightTraining",
+    "raw_activity_type": "Workout",
+    "raw_type": "HighIntensityIntervalTraining",
     "start_date_local": "2026-03-04T12:19:30Z",
-    "type": "WeightTraining",
+    "type": "HighIntensityIntervalTraining",
     "year": 2026
   },
   {
