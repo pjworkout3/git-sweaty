@@ -668,8 +668,8 @@
     {
       "date": "2026-03-04",
       "hour": 12,
-      "subtype": "HighIntensityIntervalTraining",
-      "type": "HighIntensityIntervalTraining",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
       "year": 2026
     },
     {
@@ -677,6 +677,13 @@
       "hour": 8,
       "subtype": "Swim",
       "type": "Swim",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-08",
+      "hour": 17,
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
       "year": 2026
     }
   ],
@@ -1341,17 +1348,6 @@
       }
     },
     "2026": {
-      "HighIntensityIntervalTraining": {
-        "2026-03-04": {
-          "activity_ids": [
-            "17625379333"
-          ],
-          "count": 1,
-          "distance": 1955.3,
-          "elevation_gain": 0.0,
-          "moving_time": 1558.0
-        }
-      },
       "Run": {
         "2026-02-25": {
           "activity_ids": [
@@ -1546,18 +1542,34 @@
           "elevation_gain": 136.5,
           "moving_time": 3607.0
         }
+      },
+      "WeightTraining": {
+        "2026-03-04": {
+          "activity_ids": [
+            "17625379333"
+          ],
+          "count": 1,
+          "distance": 1955.3,
+          "elevation_gain": 0.0,
+          "moving_time": 1558.0
+        },
+        "2026-03-08": {
+          "activity_ids": [
+            "17655514175"
+          ],
+          "count": 1,
+          "distance": 2847.6,
+          "elevation_gain": 0.0,
+          "moving_time": 2900.0
+        }
       }
     }
   },
-  "generated_at": "2026-03-08T15:45:38.560272+00:00",
+  "generated_at": "2026-03-09T17:37:55.580517+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
   "type_meta": {
-    "HighIntensityIntervalTraining": {
-      "accent": "#9b5de5",
-      "label": "HITT"
-    },
     "Ride": {
       "accent": "#05ffa1",
       "label": "Ride"
@@ -1573,14 +1585,18 @@
     "TrailRun": {
       "accent": "#00bbf9",
       "label": "Trail Run"
+    },
+    "WeightTraining": {
+      "accent": "#ff71ce",
+      "label": "Weight Training"
     }
   },
   "types": [
-    "HighIntensityIntervalTraining",
     "Ride",
     "Run",
     "Swim",
-    "TrailRun"
+    "TrailRun",
+    "WeightTraining"
   ],
   "units": {
     "distance": "mi",
