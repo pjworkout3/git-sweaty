@@ -1272,5 +1272,44 @@
     "start_date_local": "2026-03-08T17:09:24Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-10",
+    "distance": 9721.0,
+    "elevation_gain": 177.9,
+    "id": "17675318620",
+    "moving_time": 4564.0,
+    "name": "Lunch Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-10T11:07:31Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-10",
+    "distance": 20001.1,
+    "elevation_gain": 146.0,
+    "id": "17680429049",
+    "moving_time": 3218.0,
+    "name": "Zwift - Tick Tock in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-10T21:21:35Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-11",
+    "distance": 1100.0,
+    "elevation_gain": 0.0,
+    "id": "17685800611",
+    "moving_time": 1596.0,
+    "name": "Morning Swim",
+    "raw_activity_type": "Swim",
+    "raw_type": "Swim",
+    "start_date_local": "2026-03-11T08:11:27Z",
+    "type": "Swim",
+    "year": 2026
   }
 ]
