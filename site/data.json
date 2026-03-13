@@ -1655,7 +1655,7 @@
       }
     }
   },
-  "generated_at": "2026-03-13T15:49:55.745184+00:00",
+  "generated_at": "2026-03-13T15:52:00.675522+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
@@ -1669,7 +1669,7 @@
       "label": "Ride"
     },
     "Run": {
-      "accent": "#01cdfe",
+      "accent": "#fee440",
       "label": "Run"
     },
     "Swim": {
@@ -1677,11 +1677,11 @@
       "label": "Swim"
     },
     "TrailRun": {
-      "accent": "#00bbf9",
+      "accent": "#b19f2c",
       "label": "Trail Run"
     },
     "VirtualRide": {
-      "accent": "#fee440",
+      "accent": "#026b43",
       "label": "Virtual Ride"
     }
   },
