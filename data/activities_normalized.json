@@ -1281,9 +1281,9 @@
     "moving_time": 4564.0,
     "name": "Lunch Run",
     "raw_activity_type": "Run",
-    "raw_type": "Run",
+    "raw_type": "TrailRun",
     "start_date_local": "2026-03-10T11:07:31Z",
-    "type": "Run",
+    "type": "TrailRun",
     "year": 2026
   },
   {
