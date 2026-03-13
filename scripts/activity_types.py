@@ -127,6 +127,7 @@ TYPE_ACCENT_COLORS = {
     "Ride": "#05ffa1",
     "VirtualRide": "#026b43",
     "Swim": "#3a86ff",
+    "HighIntensityIntervalTraining": "#fb5607",
     "Walk": "#d6ff6b",
     "WeightTraining": "#ff71ce",
     "Hike": "#d6ff6b",
