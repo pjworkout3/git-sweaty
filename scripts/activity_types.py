@@ -99,10 +99,12 @@ STRAVA_ENUM_TYPES = set(STRAVA_ACTIVITY_TYPES) | set(STRAVA_SPORT_TYPES)
 DEFAULT_FEATURED_TYPES = list(STRAVA_SPORT_TYPES)
 
 DEFAULT_TYPE_LABELS = {
-    "HighIntensityIntervalTraining": "HITT",
+    "HighIntensityIntervalTraining": "Hyrox",
     "Workout": "Other Workout",
     "Run": "Run",
+    "VirtualRun": "Treadmill",
     "Ride": "Ride",
+    "VirtualRide": "Peloton",
     "Hike": "Hike",
     "Walk": "Walk",
     "Golf": "Golf",
@@ -123,9 +125,11 @@ DEFAULT_TYPE_LABELS = {
 
 TYPE_ACCENT_COLORS = {
     "Run": "#fee440",
-    "TrailRun": "#b19f2c",
+    "TrailRun": "#cbb633",
+    "VirtualRun": "#988826",
     "Ride": "#05ffa1",
-    "VirtualRide": "#026b43",
+    "GravelRide": "#04CC80",
+    "VirtualRide": "#039960",
     "Swim": "#3a86ff",
     "HighIntensityIntervalTraining": "#fb5607",
     "Walk": "#d6ff6b",
