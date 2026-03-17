@@ -1705,14 +1705,14 @@
       }
     }
   },
-  "generated_at": "2026-03-17T17:48:41.199269+00:00",
+  "generated_at": "2026-03-17T18:08:59.570764+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
   "type_meta": {
     "HighIntensityIntervalTraining": {
       "accent": "#fb5607",
-      "label": "HITT"
+      "label": "Hyrox"
     },
     "Ride": {
       "accent": "#05ffa1",
@@ -1727,16 +1727,16 @@
       "label": "Swim"
     },
     "TrailRun": {
-      "accent": "#b19f2c",
+      "accent": "#cbb633",
       "label": "Trail Run"
     },
     "VirtualRide": {
-      "accent": "#026b43",
-      "label": "Virtual Ride"
+      "accent": "#039960",
+      "label": "Peloton"
     },
     "VirtualRun": {
-      "accent": "#00bbf9",
-      "label": "Virtual Run"
+      "accent": "#988826",
+      "label": "Treadmill"
     }
   },
   "types": [
