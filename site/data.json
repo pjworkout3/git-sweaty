@@ -745,8 +745,15 @@
     {
       "date": "2026-03-17",
       "hour": 11,
-      "subtype": "Run",
-      "type": "Run",
+      "subtype": "TrailRun",
+      "type": "TrailRun",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-18",
+      "hour": 8,
+      "subtype": "Swim",
+      "type": "Swim",
       "year": 2026
     }
   ],
@@ -1452,13 +1459,12 @@
         },
         "2026-03-17": {
           "activity_ids": [
-            "17756826805",
-            "17756873686"
+            "17756826805"
           ],
-          "count": 2,
-          "distance": 11534.800000000001,
-          "elevation_gain": 170.5,
-          "moving_time": 4684.0
+          "count": 1,
+          "distance": 28.1,
+          "elevation_gain": 0.0,
+          "moving_time": 21.0
         }
       },
       "Swim": {
@@ -1659,6 +1665,15 @@
           "distance": 2775.0,
           "elevation_gain": 0.0,
           "moving_time": 3855.0
+        },
+        "2026-03-18": {
+          "activity_ids": [
+            "17766226713"
+          ],
+          "count": 1,
+          "distance": 1250.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1694.0
         }
       },
       "TrailRun": {
@@ -1679,6 +1694,15 @@
           "distance": 9721.0,
           "elevation_gain": 177.9,
           "moving_time": 4564.0
+        },
+        "2026-03-17": {
+          "activity_ids": [
+            "17756873686"
+          ],
+          "count": 1,
+          "distance": 11506.7,
+          "elevation_gain": 170.5,
+          "moving_time": 4667.0
         }
       },
       "VirtualRide": {
@@ -1705,7 +1729,7 @@
       }
     }
   },
-  "generated_at": "2026-03-17T18:08:59.570764+00:00",
+  "generated_at": "2026-03-18T18:11:44.302566+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",

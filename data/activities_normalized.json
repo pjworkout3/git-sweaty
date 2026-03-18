@@ -1382,12 +1382,25 @@
     "distance": 11506.7,
     "elevation_gain": 170.5,
     "id": "17756873686",
-    "moving_time": 4663.0,
+    "moving_time": 4667.0,
     "name": "Lunch Run",
     "raw_activity_type": "Run",
-    "raw_type": "Run",
+    "raw_type": "TrailRun",
     "start_date_local": "2026-03-17T11:26:49Z",
-    "type": "Run",
+    "type": "TrailRun",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-18",
+    "distance": 1250.0,
+    "elevation_gain": 0.0,
+    "id": "17766226713",
+    "moving_time": 1694.0,
+    "name": "Morning Swim",
+    "raw_activity_type": "Swim",
+    "raw_type": "Swim",
+    "start_date_local": "2026-03-18T08:10:31Z",
+    "type": "Swim",
     "year": 2026
   }
 ]
