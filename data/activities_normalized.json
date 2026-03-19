@@ -1402,5 +1402,18 @@
     "start_date_local": "2026-03-18T08:10:31Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-03-18",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17772349114",
+    "moving_time": 1892.0,
+    "name": "Afternoon Activity",
+    "raw_activity_type": "Workout",
+    "raw_type": "HighIntensityIntervalTraining",
+    "start_date_local": "2026-03-18T17:22:18Z",
+    "type": "HighIntensityIntervalTraining",
+    "year": 2026
   }
 ]
