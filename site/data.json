@@ -1747,7 +1747,7 @@
       }
     }
   },
-  "generated_at": "2026-03-20T14:04:28.373698+00:00",
+  "generated_at": "2026-03-20T14:11:31.863977+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
@@ -1786,14 +1786,14 @@
     }
   },
   "types": [
-    "GravelRide",
-    "HighIntensityIntervalTraining",
-    "Ride",
-    "Run",
     "Swim",
-    "TrailRun",
+    "Ride",
+    "GravelRide",
     "VirtualRide",
-    "VirtualRun"
+    "Run",
+    "TrailRun",
+    "VirtualRun",
+    "HighIntensityIntervalTraining"
   ],
   "units": {
     "distance": "mi",
