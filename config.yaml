@@ -35,6 +35,14 @@ rate_limits:
 
 activities:
   types:
+    - Swim
+    - Ride
+    - GravelRide
+    - VirtualRide
+    - Run
+    - TrailRun
+    - VirtualRun
+    - HighIntensityIntervalTraining
     - AlpineSki
     - BackcountrySki
     - Badminton
@@ -44,9 +52,7 @@ activities:
     - Elliptical
     - EMountainBikeRide
     - Golf
-    - GravelRide
     - Handcycle
-    - HighIntensityIntervalTraining
     - Hike
     - IceSkate
     - InlineSkate
@@ -57,11 +63,9 @@ activities:
     - Pickleball
     - Pilates
     - Racquetball
-    - Ride
     - RockClimbing
     - RollerSki
     - Rowing
-    - Run
     - Sail
     - Skateboard
     - Snowboard
@@ -71,14 +75,10 @@ activities:
     - StairStepper
     - StandUpPaddling
     - Surfing
-    - Swim
     - TableTennis
     - Tennis
-    - TrailRun
     - Velomobile
-    - VirtualRide
     - VirtualRow
-    - VirtualRun
     - Walk
     - WeightTraining
     - Wheelchair
