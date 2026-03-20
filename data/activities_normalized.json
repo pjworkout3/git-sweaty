@@ -605,9 +605,9 @@
     "moving_time": 4243.0,
     "name": "umstead - core 13mi",
     "raw_activity_type": "Ride",
-    "raw_type": "Ride",
+    "raw_type": "GravelRide",
     "start_date_local": "2025-09-13T16:31:49Z",
-    "type": "Ride",
+    "type": "GravelRide",
     "year": 2025
   },
   {
@@ -1366,19 +1366,6 @@
   },
   {
     "date": "2026-03-17",
-    "distance": 28.1,
-    "elevation_gain": 0.0,
-    "id": "17756826805",
-    "moving_time": 21.0,
-    "name": "Lunch Run",
-    "raw_activity_type": "Run",
-    "raw_type": "Run",
-    "start_date_local": "2026-03-17T11:25:39Z",
-    "type": "Run",
-    "year": 2026
-  },
-  {
-    "date": "2026-03-17",
     "distance": 11506.7,
     "elevation_gain": 170.5,
     "id": "17756873686",
@@ -1414,6 +1401,19 @@
     "raw_type": "HighIntensityIntervalTraining",
     "start_date_local": "2026-03-18T17:22:18Z",
     "type": "HighIntensityIntervalTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-20",
+    "distance": 975.0,
+    "elevation_gain": 0.0,
+    "id": "17790685346",
+    "moving_time": 1323.0,
+    "name": "Morning Swim",
+    "raw_activity_type": "Swim",
+    "raw_type": "Swim",
+    "start_date_local": "2026-03-20T08:08:12Z",
+    "type": "Swim",
     "year": 2026
   }
 ]
