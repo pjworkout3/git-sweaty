@@ -2994,7 +2994,7 @@ function buildSummary(
     });
   });
 
-  visibleTypeCardsList.sort((a, b) => (typeTotals[b]?.count || 0) - (typeTotals[a]?.count || 0));
+  // visibleTypeCardsList.sort((a, b) => (typeTotals[b]?.count || 0) - (typeTotals[a]?.count || 0));
   const elapsedDays = years.reduce(
     (sum, year) => sum + getElapsedDayCountForYear(Number(year)),
     0,
