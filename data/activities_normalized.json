@@ -1424,9 +1424,9 @@
     "moving_time": 4980.0,
     "name": "Morning Run",
     "raw_activity_type": "Run",
-    "raw_type": "Run",
+    "raw_type": "TrailRun",
     "start_date_local": "2026-03-21T09:01:31Z",
-    "type": "Run",
+    "type": "TrailRun",
     "year": 2026
   }
 ]
