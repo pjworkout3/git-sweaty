@@ -1428,5 +1428,18 @@
     "start_date_local": "2026-03-21T09:01:31Z",
     "type": "TrailRun",
     "year": 2026
+  },
+  {
+    "date": "2026-03-23",
+    "distance": 24447.1,
+    "elevation_gain": 180.0,
+    "id": "17827322302",
+    "moving_time": 3178.0,
+    "name": "Zwift - Big Flat 8 in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-23T08:09:51Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
