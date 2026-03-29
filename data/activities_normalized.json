@@ -1480,5 +1480,18 @@
     "start_date_local": "2026-03-27T12:45:01Z",
     "type": "VirtualRun",
     "year": 2026
+  },
+  {
+    "date": "2026-03-28",
+    "distance": 32473.7,
+    "elevation_gain": 125.0,
+    "id": "17895146249",
+    "moving_time": 4757.0,
+    "name": "Zwift - Libby Hill After Party in Richmond",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-28T20:07:50Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
