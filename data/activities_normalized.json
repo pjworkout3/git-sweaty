@@ -1506,5 +1506,31 @@
     "start_date_local": "2026-03-30T08:04:32Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-03-30",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17918206908",
+    "moving_time": 2155.0,
+    "name": "Lunch Activity",
+    "raw_activity_type": "Workout",
+    "raw_type": "HighIntensityIntervalTraining",
+    "start_date_local": "2026-03-30T12:11:55Z",
+    "type": "HighIntensityIntervalTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-30",
+    "distance": 18659.6,
+    "elevation_gain": 124.0,
+    "id": "17919717221",
+    "moving_time": 3652.0,
+    "name": "Zwift - Waisted 8 in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-30T20:47:44Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
