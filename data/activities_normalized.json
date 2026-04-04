@@ -1571,5 +1571,18 @@
     "start_date_local": "2026-04-03T08:04:29Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-04-04",
+    "distance": 41761.3,
+    "elevation_gain": 325.0,
+    "id": "17979623729",
+    "moving_time": 7916.0,
+    "name": "Zwift - Makuri 40 in Makuri Islands",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-04T13:48:42Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
