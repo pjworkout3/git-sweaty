@@ -874,6 +874,13 @@
       "subtype": "Swim",
       "type": "Swim",
       "year": 2026
+    },
+    {
+      "date": "2026-04-10",
+      "hour": 8,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -1894,6 +1901,15 @@
           "distance": 500.0,
           "elevation_gain": 0.0,
           "moving_time": 622.0
+        },
+        "2026-04-10": {
+          "activity_ids": [
+            "18053550195"
+          ],
+          "count": 1,
+          "distance": 1750.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2344.0
         }
       },
       "TrailRun": {
@@ -2003,7 +2019,7 @@
       }
     }
   },
-  "generated_at": "2026-04-10T09:16:41.851457+00:00",
+  "generated_at": "2026-04-10T13:22:31.661219+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
