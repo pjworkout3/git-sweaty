@@ -1636,5 +1636,18 @@
     "start_date_local": "2026-04-10T08:01:39Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-04-11",
+    "distance": 69773.4,
+    "elevation_gain": 573.0,
+    "id": "18071521702",
+    "moving_time": 13402.0,
+    "name": "Zwift - Eastern Eight in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-11T13:31:28Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
