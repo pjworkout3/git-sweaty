@@ -1701,5 +1701,18 @@
     "start_date_local": "2026-04-22T16:27:35Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-04-22",
+    "distance": 5219.1,
+    "elevation_gain": 26.0,
+    "id": "18218267022",
+    "moving_time": 1616.0,
+    "name": "Zwift - Volcano Circuit in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-22T17:48:23Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
