@@ -993,6 +993,20 @@
       "subtype": "VirtualRun",
       "type": "VirtualRun",
       "year": 2026
+    },
+    {
+      "date": "2026-05-13",
+      "hour": 17,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
+    },
+    {
+      "date": "2026-05-13",
+      "hour": 21,
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2123,6 +2137,15 @@
           "distance": 800.0,
           "elevation_gain": 0.0,
           "moving_time": 986.0
+        },
+        "2026-05-13": {
+          "activity_ids": [
+            "18496321759"
+          ],
+          "count": 1,
+          "distance": 1150.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1603.0
         }
       },
       "TrailRun": {
@@ -2235,6 +2258,15 @@
           "distance": 8660.4,
           "elevation_gain": 41.0,
           "moving_time": 3615.0
+        },
+        "2026-05-13": {
+          "activity_ids": [
+            "18498656267"
+          ],
+          "count": 1,
+          "distance": 14923.6,
+          "elevation_gain": 165.0,
+          "moving_time": 4306.0
         }
       },
       "VirtualRun": {
@@ -2277,7 +2309,7 @@
       }
     }
   },
-  "generated_at": "2026-05-13T21:39:39.806659+00:00",
+  "generated_at": "2026-05-14T03:50:54.107935+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",

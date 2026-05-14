@@ -1844,5 +1844,31 @@
     "start_date_local": "2026-05-13T13:44:43Z",
     "type": "VirtualRun",
     "year": 2026
+  },
+  {
+    "date": "2026-05-13",
+    "distance": 1150.0,
+    "elevation_gain": 0.0,
+    "id": "18496321759",
+    "moving_time": 1603.0,
+    "name": "Afternoon Swim",
+    "raw_activity_type": "Swim",
+    "raw_type": "Swim",
+    "start_date_local": "2026-05-13T17:08:05Z",
+    "type": "Swim",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-13",
+    "distance": 14923.6,
+    "elevation_gain": 165.0,
+    "id": "18498656267",
+    "moving_time": 4306.0,
+    "name": "Zwift - Two Bridges Loop in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-13T21:20:44Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
