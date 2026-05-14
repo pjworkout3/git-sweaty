@@ -1764,7 +1764,7 @@
           ],
           "count": 1,
           "distance": 13134.8,
-          "elevation_gain": 74.8,
+          "elevation_gain": 57.7,
           "moving_time": 5425.0
         },
         "2026-04-13": {
@@ -2309,7 +2309,7 @@
       }
     }
   },
-  "generated_at": "2026-05-14T17:58:07.637839+00:00",
+  "generated_at": "2026-05-14T21:02:48.153789+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
