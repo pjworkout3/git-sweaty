@@ -4712,6 +4712,93 @@ async function init() {
     card.dataset.scrollKey = String(key || "");
   }
 
+  function buildWeekByWeekCard(payload, types, units, weekStart) {
+  const card = document.createElement("div");
+  card.className = "card more-stats";
+  const selectedTypeSet = new Set(types);
+
+  const now = new Date();
+  const todayUtc = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+  const thisWeekStart = weekStartOnOrBeforeUtc(todayUtc, weekStart);
+  const thisWeekEnd = weekEndOnOrAfterUtc(todayUtc, weekStart);
+  const lastWeekStart = new Date(thisWeekStart.getTime() - 7 * 86400000);
+  const lastWeekEnd = new Date(thisWeekStart.getTime() - 86400000);
+
+  const fmtDate = (d) => {
+    const mo = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][d.getUTCMonth()];
+    return `${mo} ${d.getUTCDate()}`;
+  };
+
+  const emptyStats = () => ({ count: 0, distance: 0, moving_time: 0 });
+  const thisWeek = emptyStats();
+  const lastWeek = emptyStats();
+
+  const yearsToCheck = new Set([
+    String(thisWeekStart.getUTCFullYear()),
+    String(lastWeekStart.getUTCFullYear()),
+  ]);
+
+  yearsToCheck.forEach((year) => {
+    Object.entries(payload.aggregates?.[year] || {}).forEach(([type, entries]) => {
+      if (!selectedTypeSet.has(type)) return;
+      Object.entries(entries || {}).forEach(([dateStr, entry]) => {
+        const d = new Date(`${dateStr}T00:00:00Z`);
+        if (isNaN(d.getTime())) return;
+        const bucket = d >= thisWeekStart && d <= thisWeekEnd
+          ? thisWeek
+          : d >= lastWeekStart && d <= lastWeekEnd
+          ? lastWeek
+          : null;
+        if (!bucket) return;
+        bucket.count += entry.count || 0;
+        bucket.distance += entry.distance || 0;
+        bucket.moving_time += entry.moving_time || 0;
+      });
+    });
+  });
+
+  const buildWeekPanel = (label, dateRange, stats) => {
+    const panel = document.createElement("div");
+    panel.className = "week-by-week-panel";
+
+    const header = document.createElement("div");
+    header.className = "week-by-week-header";
+    header.textContent = `${label} · ${dateRange}`;
+    panel.appendChild(header);
+
+    const statsGrid = document.createElement("div");
+    statsGrid.className = "card-stats";
+
+    [
+      { label: "Activities", value: String(stats.count) },
+      { label: "Distance", value: stats.distance > 0 ? formatDistance(stats.distance, units) : "—" },
+      { label: "Time", value: stats.moving_time > 0 ? formatDuration(stats.moving_time) : "—" },
+    ].forEach(({ label, value }) => {
+      const stat = document.createElement("div");
+      stat.className = "card-stat";
+      const lbl = document.createElement("div");
+      lbl.className = "card-stat-label";
+      lbl.textContent = label;
+      const val = document.createElement("div");
+      val.className = "card-stat-value";
+      val.textContent = value;
+      stat.appendChild(lbl);
+      stat.appendChild(val);
+      statsGrid.appendChild(stat);
+    });
+
+    panel.appendChild(statsGrid);
+    return panel;
+  };
+
+  const body = document.createElement("div");
+  body.className = "week-by-week-body";
+  body.appendChild(buildWeekPanel("This Week", `${fmtDate(thisWeekStart)} – ${fmtDate(thisWeekEnd)}`, thisWeek));
+  body.appendChild(buildWeekPanel("Last Week", `${fmtDate(lastWeekStart)} – ${fmtDate(lastWeekEnd)}`, lastWeek));
+  card.appendChild(body);
+  return card;
+}
+
   function update(options = {}) {
     const keepTypeMenuOpen = Boolean(options.keepTypeMenuOpen);
     const keepYearMenuOpen = Boolean(options.keepYearMenuOpen);
@@ -4962,6 +5049,7 @@ async function init() {
           setCardScrollKey(card, `${combinedSelectionKey}:year:${year}`);
           trackYearMetricAvailability(year, nextVisibleYearMetricYears);
           list.appendChild(buildLabeledCardRow(String(year), card, "year"));
+          list.appendChild(buildLabeledCardRow("Week by Week", buildWeekByWeekCard(payload, types, currentUnits, setupWeekStart), "week-by-week"));
         });
         section.appendChild(list);
         heatmaps.appendChild(section);
@@ -5005,6 +5093,7 @@ async function init() {
             setCardScrollKey(card, `${typeCardKey}:year:${year}`);
             trackYearMetricAvailability(year, nextVisibleYearMetricYears);
             list.appendChild(buildLabeledCardRow(String(year), card, "year"));
+            list.appendChild(buildLabeledCardRow("Week by Week", buildWeekByWeekCard(payload, [type], currentUnits, setupWeekStart), "week-by-week"));
           });
           if (!list.childElementCount) {
             return;
