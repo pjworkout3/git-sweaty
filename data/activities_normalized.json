@@ -1896,5 +1896,18 @@
     "start_date_local": "2026-05-15T18:51:21Z",
     "type": "VirtualRun",
     "year": 2026
+  },
+  {
+    "date": "2026-05-16",
+    "distance": 42949.6,
+    "elevation_gain": 406.0,
+    "id": "18532399612",
+    "moving_time": 9079.0,
+    "name": "Zwift - Deca Dash in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-16T10:21:12Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
