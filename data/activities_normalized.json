@@ -1935,5 +1935,31 @@
     "start_date_local": "2026-05-19T14:29:01Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-05-20",
+    "distance": 1609.3,
+    "elevation_gain": 0.0,
+    "id": "18599749873",
+    "moving_time": 600.0,
+    "name": "Afternoon Run",
+    "raw_activity_type": "VirtualRun",
+    "raw_type": "VirtualRun",
+    "start_date_local": "2026-05-20T15:16:08Z",
+    "type": "VirtualRun",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-21",
+    "distance": 7242.1,
+    "elevation_gain": 0.0,
+    "id": "18599755250",
+    "moving_time": 2820.0,
+    "name": "Afternoon Run",
+    "raw_activity_type": "VirtualRun",
+    "raw_type": "VirtualRun",
+    "start_date_local": "2026-05-21T14:29:54Z",
+    "type": "VirtualRun",
+    "year": 2026
   }
 ]
