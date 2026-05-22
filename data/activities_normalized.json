@@ -1961,5 +1961,18 @@
     "start_date_local": "2026-05-21T14:29:54Z",
     "type": "VirtualRun",
     "year": 2026
+  },
+  {
+    "date": "2026-05-22",
+    "distance": 1000.0,
+    "elevation_gain": 0.0,
+    "id": "18610027312",
+    "moving_time": 1193.0,
+    "name": "Lunch Swim",
+    "raw_activity_type": "Swim",
+    "raw_type": "Swim",
+    "start_date_local": "2026-05-22T11:20:03Z",
+    "type": "Swim",
+    "year": 2026
   }
 ]

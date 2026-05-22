@@ -1056,6 +1056,13 @@
       "subtype": "VirtualRun",
       "type": "VirtualRun",
       "year": 2026
+    },
+    {
+      "date": "2026-05-22",
+      "hour": 11,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -2213,6 +2220,15 @@
           "distance": 1350.0,
           "elevation_gain": 0.0,
           "moving_time": 1925.0
+        },
+        "2026-05-22": {
+          "activity_ids": [
+            "18610027312"
+          ],
+          "count": 1,
+          "distance": 1000.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1193.0
         }
       },
       "TrailRun": {
@@ -2421,7 +2437,7 @@
       }
     }
   },
-  "generated_at": "2026-05-22T14:48:39.390181+00:00",
+  "generated_at": "2026-05-22T17:57:23.669557+00:00",
   "other_bucket": "OtherSports",
   "repo": "pjworkout3/git-sweaty",
   "source": "strava",
