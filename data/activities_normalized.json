@@ -2130,5 +2130,18 @@
     "start_date_local": "2026-06-01T08:39:25Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-06-02",
+    "distance": 9656.1,
+    "elevation_gain": 0.0,
+    "id": "18760230207",
+    "moving_time": 4200.0,
+    "name": "Morning Run",
+    "raw_activity_type": "VirtualRun",
+    "raw_type": "VirtualRun",
+    "start_date_local": "2026-06-02T08:00:20Z",
+    "type": "VirtualRun",
+    "year": 2026
   }
 ]
