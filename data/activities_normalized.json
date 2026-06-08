@@ -2182,5 +2182,18 @@
     "start_date_local": "2026-06-05T08:16:15Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-06-07",
+    "distance": 25208.4,
+    "elevation_gain": 121.0,
+    "id": "18831707991",
+    "moving_time": 4366.0,
+    "name": "Zwift - Coast Crusher in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-07T21:05:43Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
